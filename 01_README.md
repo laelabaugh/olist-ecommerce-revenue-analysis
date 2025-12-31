@@ -14,6 +14,12 @@ This analysis examines 96,518 orders placed between September 2016 and August 20
 - **Customer Satisfaction:** What factors influence customer review scores? How does delivery performance impact satisfaction?
 - **Payment Behavior:** How do Brazilian consumers prefer to pay? What is installment use pattern?
 
+**Dataset Information**
+
+**Source:** [Brazilian E-Commerce Public Dataset by Olist - Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+
+**Provider:** Olist Store
+
 The SQL queries used to inspect and clean the data can be found [here](02_data_inspection.sql).
 The SQL queries used for analysis can be found [here](03_analysis_queries.sql).
 
