@@ -6,7 +6,7 @@ Olist is Brazil's largest department store marketplace, linking small businesses
 
 This analysis examines 96,518 orders placed between September 2016 and August 2018. The dataset spans R$21.5 million in revenue across 17 product categories and 16 Brazilian states. It provides a detailed look at customer behavior, seller performance, product trends, and logistics.
 
-*This project was conducted between June and July 2025 and later uploaded to GitHub in December 2025.*
+*This project was conducted in November 2025 and later uploaded to GitHub in December 2025.*
 
 **Main Business Questions:**
 
