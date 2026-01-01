@@ -265,7 +265,7 @@ Based on the analysis, the following are some strategic recommendations:
 ### Repository Structure
 
 ```
-├── 01_README.md                       # This file
+├── README.md                       # This file
 ├── sql
 │   ├── 02_data_inspection.sql      # Data quality checks
 │   └── 03_analysis_queries.sql     # Business analysis queries
