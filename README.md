@@ -22,8 +22,8 @@ This analysis examines 96,518 orders placed between September 2016 and August 20
 
 **Provider:** Olist Store
 
-The SQL queries used to inspect and clean the data can be found [here](02_data_inspection.sql).
-The SQL queries used for analysis can be found [here](03_analysis_queries.sql).
+The SQL queries used to inspect and clean the data can be found [here](/sql/02_data_inspection.sql).
+The SQL queries used for analysis can be found [here](/sql/03_analysis_queries.sql).
 
 ---
 
@@ -103,7 +103,7 @@ The analysis reveals three main areas of focus. First, the Southeast region acco
 
 Below is the executive overview dashboard from the analysis.
 
-![Executive Dashboard](04_executive_dashboard.png)
+![Executive Dashboard](/visualizations/04_executive_dashboard.png)
 
 ---
 
@@ -124,7 +124,7 @@ Revenue grew sharply from 2017 to 2018, with clear seasonal peaks that could gui
 
 - **Strategic implication:** Promotional calendars tied to Brazilian holidays (Black Friday, Mother's Day, Children's Day in October) could take advantage of these seasonal bumps more effectively.
 
-![Sales Trends](05_sales_trends.png)
+![Sales Trends](/visualizations/05_sales_trends.png)
 
 ### 2. Regional Performance
 
@@ -145,7 +145,7 @@ The Southeast region dominates the marketplace, which reflects Brazil's economic
 
 - **Growth opportunity:** North and Northeast regions are underrepresented given their population. Targeted marketing campaigns and seller recruitment there could open new growth.
 
-![Regional Analysis](06_regional_analysis.png)
+![Regional Analysis](/visualizations/06_regional_analysis.png)
 
 ### 3. Product Category Performance
 
@@ -165,7 +165,7 @@ The product portfolio shows good diversification, though the top categories cont
 
 - **Customer ratings by category:** All categories score healthy ratings betwen 4.21 and 4.29. Telephony (4.29) and Toys (4.28) lead slightly; Perfumery trails at 4.21, which shows slight underperformance and may need a review of product quality or handling.
 
-![Product Categories](07_product_categories.png)
+![Product Categories](/visualizations/07_product_categories.png)
 
 ### 4. Customer Analysis & Behavior
 
