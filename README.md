@@ -1,6 +1,6 @@
 # Olist E-Commerce Revenue Analysis
 
-## Project Background
+## Project Background and Overview
 
 Olist is Brazil's largest department store marketplace, linking small businesses to major e-commerce channels. Since 2015, the platform has let merchants sell their products through the Olist Store and ship directly to customers using Olist's logistics partners.
 
@@ -8,7 +8,7 @@ This analysis examines 96,518 orders placed between September 2016 and August 20
 
 *This project was conducted in November 2025 and later uploaded to GitHub in December 2025.*
 
-**Main Business Questions:**
+**Key business questions addressed:**
 
 - **Sales Performance:** How has revenue and order volume changed over time? What seasonal patterns show up in the data?
 - **Regional Analysis:** What states bring in the most revenue? How does delivery vary by region?
@@ -262,14 +262,46 @@ Based on the analysis, the following are some strategic recommendations:
 
 ---
 
+## Limitations and Future Work:
+
+**Current Limitations:**
+- The dataset only covers from September 2016 to August 2018, and does not provide data into more recent trends.
+- 2016 data starts in September and 2018 data ends in August, so full year-over-year comparisons are not possible for all months.
+- There is no product cost data provided, so profit margins cannot be calculated in detail.
+
+**Future Enhancements:**
+- Create seller performance scoring based on delivery time and ratings.
+- Forecast future sales with time series modeling.
+- Delve into product relation/affinity analysis to find opportunities for cross-selling.
+- Include delivery route optimization analysis using geographical data.
+
+--
+
+## Technical Implementation
+
+### SQL Queries Reference
+
+The analysis was conducted using SQLite with the following query categories:
+
+| Query Type | Purpose | Key Functions |
+|------------|---------|---------------|
+| Key Metrics | Orders, revenue, AOV, satisfaction | `COUNT(DISTINCT)`, `SUM()`, `AVG()`, multi-table joins |
+| Sales Trends | Monthly revenue, peak month, day of week | `strftime()` date functions, window functions |
+| Regional Performance | Revenue by state, regional breakdown | `CASE WHEN` for region mapping, percentage calculations |
+| Product Categories | Top categories, category satisfaction | `GROUP BY` category, `HAVING` filters |
+| Customer Segments | Purchase frequency, repeat buyer revenue | CTEs, customer aggregation, `CASE WHEN` segmentation |
+| Payment Methods | Payment breakdown, installment usage | `GROUP BY` payment type, conditional grouping |
+| Customer Satisfaction | Review distribution, delivery impact | Score distribution, date comparisons |
+| Seller Analysis | Sellers by state | `COUNT(DISTINCT)`, percentage of total |
+
 ### Repository Structure
 
 ```
-├── README.md                       # This file
-├── sql
-│   ├── 02_data_inspection.sql      # Data quality checks
-│   └── 03_analysis_queries.sql     # Business analysis queries
-└── visualizations
+├── README.md                      
+├── sql/
+│   ├── 02_data_inspection.sql    
+│   └── 03_analysis_queries.sql     
+└── visualizations/
     ├── 04_executive_dashboard.png
     ├── 05_sales_trends.png
     ├── 06_regional_analysis.png
