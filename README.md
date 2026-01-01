@@ -25,8 +25,6 @@ This analysis examines 96,518 orders placed between September 2016 and August 20
 The SQL queries used to inspect and clean the data can be found [here](02_data_inspection.sql).
 The SQL queries used for analysis can be found [here](03_analysis_queries.sql).
 
-The visualizations supporting this project are the [executive dashboard](04_executive_dashboard.png), [sales trends dashboard](05_sales_trends.png), and [product categories dashboard](07_product_categories.png).
-
 ---
 
 ## Data Structure & Overview
