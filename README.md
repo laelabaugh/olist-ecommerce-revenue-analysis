@@ -29,7 +29,7 @@ The SQL queries used for analysis can be found [here](/sql/03_analysis_queries.s
 
 ## Data Structure & Overview
 
-The database consists of 8 interconnected tables with more than 437,000 records, capturing the transaction cycle from order placement to delivery and review.
+The database consists of 8 interconnected tables with more than 437,000 records. It captures the transaction cycle from order placement to delivery and review.
 
 ### Entity Relationship Diagram
 
