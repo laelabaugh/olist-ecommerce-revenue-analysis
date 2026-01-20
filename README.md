@@ -2,16 +2,16 @@
 
 ## Project Background and Overview
 
-Olist is Brazil's largest department store marketplace, linking small businesses to major e-commerce channels. Since 2015, the platform has let merchants sell their products through the Olist Store and ship directly to customers using Olist's logistics partners.
+Olist is Brazil's largest department store marketplace, and links small businesses to major e-commerce channels. Since 2015, this platform has let merchants sell products through the Olist Store and ship directly to customers using Olist's logistics partners.
 
-This analysis examines 96,518 orders placed between September 2016 and August 2018. The dataset spans R$21.5 million in revenue across 17 product categories and 16 Brazilian states. It provides a detailed look at customer behavior, seller performance, product trends, and logistics.
+This analysis examines 96,518 orders placed between September 2016 and August 2018. The dataset spans R$21.5 million in revenue across 17 product categories and 16 Brazilian states. It provides a comprehensive look at customer behavior, seller performance, product trends, and logistics.
 
 *This project was conducted in November 2025 and later uploaded to GitHub in December 2025.*
 
 **Key business questions addressed:**
 
-- **Sales Performance:** How has revenue and order volume changed over time? What seasonal patterns show up in the data?
-- **Regional Analysis:** What states bring in the most revenue? How does delivery vary by region?
+- **Sales:** How has revenue and order volume changed over time? What seasonal patterns show up in the data?
+- **Region:** What states bring in the most revenue? How does delivery vary by region?
 - **Product Strategy:** Which product categories perform the best? What are the pricing patterns?
 - **Customer Satisfaction:** What factors influence customer review scores? How does delivery performance impact satisfaction?
 - **Payment Behavior:** How do Brazilian consumers prefer to pay? What is installment use pattern?
@@ -86,9 +86,9 @@ The database consists of 8 interconnected tables with more than 437,000 records,
 
 ### Overview of Findings
 
-The Olist marketplace grew steadily from late 2016 through mid-2018, with year-over-year revenue increases averaging 68% when comparing January-August periods. Key performance indicators show a healthy e-commerce operation with R$21.5 million in delivered order revenue from 60,596 unique customers. Around 80% of customers gave 4 or 5 stars, indicating solid overall satisfaction.
+The Olist marketplace grew steadily from late 2016 through mid-2018; year-over-year revenue increases averaged 68% when comparing January-August periods. Key performance indicators show healthy e-commerce operation with R$21.5 million in delivered order revenue from 60,596 unique customers. Around 80% of customers gave 4 or 5 stars, which indicators solid overall satisfaction.
 
-The analysis reveals three main areas of focus. First, the Southeast region accounts for 58% of revenue, with Sao Paulo alone at 34%. Secondly, the top 3 product categories make up 38% of revenue, leaving category diversification opportunities beyond these top performers. Thirdly, delivery performance appears consistent across regions, but remote areas may still have room for improvement.
+The analysis reveals three main areas of focus. First, the Southeast region accounts for 58% of revenue, with Sao Paulo alone at 34%. Secondly, the top 3 product categories make up 38% of revenue, which leaves opportunities for category diversification beyond these top performers. Thirdly, delivery performance seems consistent across regions, but remote areas may still have room for improvement.
 
 ### Key Performance Indicators (2016-2018)
 
@@ -141,7 +141,7 @@ The Southeast region dominates the marketplace, which reflects Brazil's economic
   | Central-West | 8% | R$23.79 | 12.6 |
   | North | 3% | R$23.53 | 12.6 |
 
-- **Logistics insight:** Freight costs stay relatively consistent across regions (R$23.50 to R$24.00), which suggests logistics partnerships and operations are efficient. However, delivery times show less variation than would be expected, which could indicate standardized shipping regardless of distance.
+- **Logistics insight:** Freight costs stay relatively consistent across regions (R$23.50 to R$24.00), which suggests logistics partnerships and operations are efficient. However, delivery times show less variation than would be expected given the distances of travel, which could indicate standardized shipping regardless of distance.
 
 - **Growth opportunity:** North and Northeast regions are underrepresented given their population. Targeted marketing campaigns and seller recruitment there could open new growth.
 
@@ -149,7 +149,7 @@ The Southeast region dominates the marketplace, which reflects Brazil's economic
 
 ### 3. Product Category Performance
 
-The product portfolio shows good diversification, though the top categories contribute disproportionately to revenue. Spreading sales across more categories could reduce risk, improve product mix, and grow basket sizes.
+The product portfolio shows good diversification, though the top categories contribute disproportionately to revenue. Spreading sales across more categories could reduce risk, improve product mix, and even grow basket sizes.
 
 - **Top 3 Categories by Revenue:**
   1. Furniture & Decor: R$3.54M (16%) - Highest revenue but also highest freight costs
@@ -163,7 +163,7 @@ The product portfolio shows good diversification, though the top categories cont
 
 - **Category concentration risk:** Top 3 categories represent 39% of revenue. Diversification into underperforming categories (Fashion, Stationery) could reduce risk and increase basket size.
 
-- **Customer ratings by category:** All categories score healthy ratings betwen 4.21 and 4.29. Telephony (4.29) and Toys (4.28) lead slightly; Perfumery trails at 4.21, which shows slight underperformance and may need a review of product quality or handling.
+- **Customer ratings by category:** All categories score healthy, consistent ratings betwen 4.21 and 4.29. Telephony (4.29) and Toys (4.28) lead slightly; Perfumery is next in ranking at 4.21, which shows slight underperformance and might need a review of product quality or handling.
 
 ![Product Categories](/visualizations/07_product_categories.png)
 
@@ -180,7 +180,7 @@ The customer base is growing but shows typical e-commerce patterns with most buy
 
 - **Customer value insight:** Repeat customers represent 42% of the base but generate 64% of revenue. A customer with 3+ orders has a lifetime value 3.3 times higher than a one-time buyer, at R$730 vs. R$223.
 
-- **Acquisition trends:** New customer acquisition peaked during Black Friday, as November 2017 saw 4,166 new customers, and showed consistent month-over-month growth averaging  added 8% through to 2018.
+- **Acquisition trends:** New customer acquisition peaked during Black Friday, as November 2017 saw 4,166 new customers, and showed consistent month-over-month growth averaging added 8% through to 2018.
 
 - **Retention opportunity:** Implementing loyalty programs, personalized recommendations, and re-engagement campaigns could convert more one-time buyers to repeat customers, which would likely increase revenue.
 
@@ -196,7 +196,7 @@ Credit card method dominates, and installment plans are common for more expensiv
   | Voucher | 3,860 | 4% | R$219 |
   | Debit Card | 2,933 | 3% | R$226 |
 
-- **Installment Usage (Credit Card):**
+- **Installment Usage with Credit Card:**
   - 35% pay in full (1 installment)
   - 40% use 2-4 installments
   - 25% use 5-12 installments
@@ -217,7 +217,7 @@ Customer satisfaction is strong overall, and delivery performance, surprisingly,
 
 - **Satisfaction rate:** 80% of reviews are 4 stars or higher, indicating healthy overall satisfaction.
 
-- **Impact of delivery:** On-time/early deliveries and late deliveries similar satisfaction rates of around 80%. This could suggest that delivery timing has less impact than expected. This could suggest that estimated delivery windows are conservatively set.
+- **Impact of delivery:** On-time/early deliveries and late deliveries similar satisfaction rates of around 80%. This could suggest that delivery timing has less impact than expected. This could suggest that estimated delivery windows are conservatively set, which could be why they are so similar across regions.
 
 - **Category satisfaction:** Telephony (which has a satisfaction score of 4.29) and Toys (with a score of 4.28) lead in customer satisfaction, while Perfumery (4.21) slightly underperforms. All categories remain above 4.0.
 
