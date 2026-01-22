@@ -275,7 +275,7 @@ Based on the analysis, the following are some strategic recommendations:
 - Delve into product relation/affinity analysis to find opportunities for cross-selling.
 - Include delivery route optimization analysis using geographical data.
 
---
+---
 
 ## Technical Implementation
 
