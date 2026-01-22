@@ -37,7 +37,7 @@ The database consists of 8 interconnected tables with more than 437,000 records.
 ┌─────────────────┐       ┌─────────────────┐       ┌─────────────────┐
 │    customers    │       │     orders      │       │   order_items   │
 ├─────────────────┤       ├─────────────────┤       ├─────────────────┤
-│ customer_id (PK)│◄──────│ customer_id (FK)│       │ order_id (FK)   │──────┐
+│ customer_id (PK)│◄──────│ customer_id (FK)│       │ order_id (PK)   │──────┐
 │ customer_unique │       │ order_id (PK)   │◄──────│ order_item_id   │      │
 │ customer_zip    │       │ order_status    │       │ product_id (FK) │──┐   │
 │ customer_city   │       │ purchase_ts     │       │ seller_id (FK)  │
